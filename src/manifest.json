@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "omibox sample",
+	"description": "A sample extension using chrome.omnibox.* API",
+	"version": "0.1.0",
+	"omnibox": {
+		"keyword": "sample"
+	},
+	"icons": {
+		"16": "img/16-full-color.png"
+	},
+	"background": {
+		"persistent": false,
+		"scripts": ["js/background.js"]
+	},
+	"permissions": []
+}
