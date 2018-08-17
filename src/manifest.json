@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "omibox sample",
 	"description": "A sample extension using chrome.omnibox.* API",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"omnibox": {
 		"keyword": "sample"
 	},
